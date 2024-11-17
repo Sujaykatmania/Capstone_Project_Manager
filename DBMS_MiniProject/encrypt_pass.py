@@ -2,10 +2,10 @@ import bcrypt
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="mysql",
-    database="dbms_proj"
+    host="<host name>",
+    user="<user name>",
+    password="<your password>",
+    database="<db name>"
 )
 cursor = db.cursor()
 
