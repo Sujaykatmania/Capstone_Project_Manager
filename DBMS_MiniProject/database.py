@@ -14,10 +14,10 @@ def initialize_connection_pool():
             connection_pool = pooling.MySQLConnectionPool(
                 pool_name="db_pool",
                 pool_size=10,  # Number of connections in the pool
-                host="localhost",
-                user="root",
-                password="mysql",
-                database="dbms_proj"
+                host="<host name>",
+                user="<user name>",
+                password="<your passwd>",
+                database="<db name>
             )
             logging.info("Database connection pool created successfully.")
         except Error as e:
